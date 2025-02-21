@@ -1,0 +1,121 @@
+
+
+//4a77c5
+.c-pointer {
+    cursor: pointer !important;
+}
+
+ul {
+
+    list-style-type: none !important;
+}
+
+.text-main {
+    color: $maincolor !important;
+}
+.wrongpass{
+    font-size: 12px;
+   color: red;
+   display: none;
+}
+.bg-db {
+    background-color: $maincolor !important;
+}
+
+.text-db {
+    color: $color !important;
+}
+
+.radius-c {
+    border-radius: 5px !important;
+}
+
+.bg-c {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(17px);
+}
+
+.active-li {
+    color: $maincolor !important;
+    pointer-events: none;
+}
+
+.fixed-div {
+    position: fixed;
+    top: 50px;
+    bottom: 50px !important;
+    right: 16px;
+    width: 260px;
+    max-height: calc(100vh - 100px);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(17px);
+    padding: 20px;
+    z-index: 9999;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    // border-radius: 20px;
+    overflow-y: scroll;
+    display: none;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    /* Optional: Add box shadow for a visual separation */
+}
+
+.fixed-div::-webkit-scrollbar {
+    width: 0;
+    /* Adjust the width as needed */
+}
+
+.fixed-div button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.t-remove {
+    height: 30px;
+    width: 20px;
+    // display: flex;
+    float: right;
+    transform: none !important;
+    z-index: 1000 !important;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1380px) {
+    .lgndiv {
+        height: 50vh !important;
+        width: 35vw !important;
+    }
+}
+
+@media only screen and (min-width: 1480px) and (max-width: 1920px) {
+    .lgndiv {
+        height: 35vh !important;
+        width: 25vw !important;
+    }
+}
+
+.lgndiv {
+
+
+    border-radius: 5px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(17px);
+}
+
+#lgnbtn {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: $maincolor;
+    color: white;
+}
+.yearpicker, #mpicker{
+    border-radius: 5px;
+    border: 1px solid #203864 ;
+}

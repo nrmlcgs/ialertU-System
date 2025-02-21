@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1280px) and (max-width: 1380px) {
+    .sidebar {
+        width: 200px !important;
+    }
+
+    .logout-link span {
+        margin-left: -20px;
+    }
+
+    .rp {
+        padding-left: 200px !important;
+    }
+}
+
+
+@media only screen and (min-width: 1480px) and (max-width: 1920px) {
+    .sidebar {
+        width: 260px !important;
+    }
+
+    .logout-link span {
+        margin-left: -25px;
+    }
+
+    .rp {
+        padding-left: 260px !important;
+    }
+}

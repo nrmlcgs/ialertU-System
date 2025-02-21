@@ -1,0 +1,21 @@
+.ripple {
+    pointer-events: none !important;
+}
+
+.circle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: rgba(255, 0, 64, 0.5);
+    animation: ripple-animation 1s linear infinite;
+    top: 25%;
+    left: 25%;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
